@@ -13,6 +13,41 @@
   <body> 
     <div id="container">
       <h1>회원 가입을 환영합니다</h1>
+      <form action="">
+        <fieldset>
+          <legend>사용자정보</legend>
+          <ul>
+            <li>
+              <label for="id">아이디</label>
+              <input type="text" id="id">
+            </li>
+            <li>
+              <label for="eemail">이메일</label>
+              <input type="text" id="eemail">
+            </li>
+            <li>
+              <label for="pwdd">비밀번호</label>
+              <input type="password" id="pwdd">
+            </li>
+            <li>
+              <label for="pwc">비밀번호 확인</label>
+              <input type="password" id="pwc">
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>이벤트와 새로운 소식</legend>
+          <label for="mailing_y">메일 수신</label>
+          <input type="radio" name="mailing" id="mailing_y">
+          <label for="mailing_n">메일 수신 안 함 </label>
+          <input type="radio" name="mailing" id="mailing_n">
+        </fieldset>
+        <div id="buttons">
+          <input type="submit" value="가입하기">
+          <input type="reset" value="취소">
+        </div>
+        
+      </form>
       
     </div>           
   </body>
