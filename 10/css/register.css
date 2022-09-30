@@ -7,6 +7,12 @@ body {
 	background: #ccc;
 	padding: 20px;	
 }
+#signup label{
+	float: left;
+	font-size: 13px;
+	width: 110px;
+
+}
 
 #signup {
 	background:#fff;
