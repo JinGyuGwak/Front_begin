@@ -16,7 +16,7 @@ li {
 	font-size:16px;
 	text-align:center;
 }
-#result {
+.result {
 	width:500px;
 	height:300px;
 	margin:30px auto;
